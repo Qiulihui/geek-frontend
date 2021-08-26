@@ -21,6 +21,13 @@ module.exports = {
   mongodb: {
     host: "10.184.24.181",
     port: 27017,
-    database: "fastify_mongo"
+    database: "fastify_mongo",
+    user: "fastify",
+    password: "123456"
+  },
+  elasticsearch: {
+    host: "10.184.24.181",
+    port: 9200,
+    log: "trace"
   }
 };
